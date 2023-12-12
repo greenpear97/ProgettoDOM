@@ -1,0 +1,102 @@
+[{
+    "id": 1,
+    "name": "Nebbiolo Notturno",
+    "prezzo": 77.58,
+    "categoria": "Vini Rossi"
+  }, {
+    "id": 2,
+    "name": "Chardonnay Incanto",
+    "prezzo": 90.11,
+    "categoria": "Vini Bianchi"
+  }, {
+    "id": 3,
+    "name": "Rosato Raffinato",
+    "prezzo": 79.51,
+    "categoria": "Vini Rosé"
+  }, {
+    "id": 4,
+    "name": " Prosecco Primavera",
+    "prezzo": 4.66,
+    "categoria": "Spumanti"
+  }, {
+    "id": 5,
+    "name": "Brut Brio",
+    "prezzo": 75.73,
+    "categoria": "Champagne"
+  }, {
+    "id": 6,
+    "name": "Cabernet Coraggio",
+    "prezzo": 92.55,
+    "categoria": "Vini Rossi"
+  }, {
+    "id": 7,
+    "name": "Sauvignon Serenità",
+    "prezzo": 69.54,
+    "categoria": "Vini Bianchi"
+  }, {
+    "id": 8,
+    "name": "Zinfandel Zen",
+    "prezzo": 30.14,
+    "categoria": "Vini Rosé"
+  }, {
+    "id": 9,
+    "name": "Asti Allegria",
+    "prezzo": 82.13,
+    "categoria": "Spumanti"
+  }, {
+    "id": 10,
+    "name": "Blanc de Blancs Brillante",
+    "prezzo": 42.81,
+    "categoria": "Champagne"
+  }, {
+    "id": 11,
+    "name": "Merlot Maestoso",
+    "prezzo": 86.99,
+    "categoria": "Vini Rossi"
+  }, {
+    "id": 12,
+    "name": "Riesling Risplendente",
+    "prezzo": 3.13,
+    "categoria": "Vini Bianchi"
+  }, {
+    "id": 13,
+    "name": "Malbec Magico",
+    "prezzo": 86.8,
+    "categoria": "Vini Rosé"
+  }, {
+    "id": 14,
+    "name": "Cava Cascata di Stelle",
+    "prezzo": 10.99,
+    "categoria": "Spumanti"
+  }, {
+    "id": 15,
+    "name": "Champagne Romance",
+    "prezzo": 96.28,
+    "categoria": "Champagne"
+  }, {
+    "id": 16,
+    "name": "Syrah Segreto",
+    "prezzo": 18.37,
+    "categoria": "Vini Rossi"
+  }, {
+    "id": 17,
+    "name": "Vermentino Leggero",
+    "prezzo": 3.06,
+    "categoria": "Vini Bianchi"
+  }, {
+    "id": 18,
+    "name": "Rosé Romance",
+    "prezzo": 69.29,
+    "categoria": "Vini Rosé"
+  }, {
+    "id": 19,
+    "name": "Lambrusco Luccicante",
+    "prezzo": 1.39,
+    "categoria": "Spumanti"
+  }, {
+    "id": 20,
+    "name": "Champagne Luce",
+    "prezzo": 13.35,
+    "categoria": "Champagne"
+  }]
+  

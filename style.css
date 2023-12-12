@@ -1,0 +1,211 @@
+:root{
+    --color-P: rgb(139, 190, 178); 
+    --color-S: rgb(211, 97,53); 
+    --color-T: rgb(103, 105, 124);
+}
+
+.color-P{
+    color:var(--color-P);
+}
+
+.color-S{
+    color:var(--color-S);
+}
+
+
+
+/*Navbar*/
+.navbar{
+    background-color: var(--color-P);
+}
+.navbar-custom {
+margin: 5vh 15vh 0vh 15vh ;
+background-color: rgba(139, 190, 178, 0.669); ;
+backdrop-filter: blur (10px);
+border: 2px solid var(--color-S);
+border-radius: 10px;
+}
+.trasition{
+    transition: 1s;
+}
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height:  2px;
+    background-color: var(--color-S);
+    transition: .5s;
+}
+
+.nav-link:hover::before{
+width: 100%;
+}
+
+/* Carousel */
+.carousel-item{
+    height: 75vh;
+    min-height:300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size: cover ; 
+}
+.carousel-caption{
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption p{
+    margin-top: 30px;
+}
+.fontCarousel{
+    font-size: 40px;
+    color: var(--color-S);
+}
+
+
+/*Card*/
+.card:hover>div>img{
+transform: scale(1.2);
+}
+
+/* Category */
+.img-category{
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--color-P);
+    padding: 5px
+}
+
+.circleCategory{
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--color-P);
+    padding: 5px;
+}
+
+.titleCategory{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-P);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+
+.position-relative:hover > .img-category{
+    animation: rotate 1s;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(720deg);
+    }
+    
+}
+
+
+
+
+/* Sezione Numeri */
+
+.boxNumber{
+    background-color: var(--color-P);
+    height: 120px;
+    color: var(--color-T);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+/* FILTRI  per cambiare il colore del pallino webkit servono per far funzionare i cambiamenti su tutti i motori */
+
+.filtersMenu{
+    position: sticky;
+    top: 15vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.custom-range::-webkit-slider-thumb {
+    background: var(--color-P);
+}
+.custom-range::-moz-range-thumb {
+    background: var(--color-P);
+}
+
+.custom-range::-ms-thumb {
+    background: var(--color-P);
+}
+
+.custom-range:focus::-webkit-slider-thumb {
+    box-shadow: none;
+}
+.custom-range:focus::-moz-range-thumb {
+    box-shadow: none;
+}
+
+.custom-range:active::-webkit-slider-thumb {
+    background:  rgb(139, 190, 178);
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem var(--color-S);
+}
+.custom-range:active::-moz-range-thumb {
+    background:  rgb(139, 190, 178);
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem var(--color-S);
+}
+
+/* SWIPER CAROUSEL */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-color: rgba(237, 237, 233, 0.464);
+    border-radius: 8%;
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    max-width: 100%;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .img-carousel{
+    width: 50px !important;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid var(--color-P);
+}
+
+@media screen and (max-width:600px){
+    /* NAVBAR */
+    .navbar-custom {
+        margin: 0;
+        border: 0;
+        border-radius: 0px;
+    }
+}
+
+
